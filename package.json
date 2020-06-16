@@ -6,7 +6,8 @@
   "scripts": {
     "sub:react": "cd sub-react-app && npm run start",
     "sub:vue": "cd sub-vue-app && npm run serve",
-    "sub:all": "npm-run-all -p sub:react sub:vue"
+    "sub:all": "npm-run-all -p sub:react sub:vue",
+    "main": "cd main-app && npm run serve"
   },
   "author": "",
   "license": "ISC",
