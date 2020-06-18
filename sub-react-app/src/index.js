@@ -20,9 +20,3 @@ const reactLifeCycles = singleSpaReact({
 export const bootstrap = reactLifeCycles.bootstrap
 export const mount = reactLifeCycles.mount
 export const unmount = reactLifeCycles.unmount
-//挂载到window变量上
-window.singleReact = {
-    bootstrap,
-    mount,
-    unmount
-}
