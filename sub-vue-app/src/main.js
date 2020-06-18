@@ -29,11 +29,4 @@ export const mount = (props) => {
     return vueLifeCycles.mount(props)
 }
 export const unmount = vueLifeCycles.unmount
-//挂载到window变量上
-window.singleVue = {
-    bootstrap,
-    mount,
-    unmount
-}
-
 

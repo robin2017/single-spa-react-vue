@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --port 12302",
-    "build": "vue-cli-service build"
+    "serve": "vue-cli-service serve --port 12302"
   },
   "dependencies": {
     "core-js": "^3.6.5",
