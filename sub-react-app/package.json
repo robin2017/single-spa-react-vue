@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "PORT=12301 node scripts/start.js"
+    "serve": "PORT=12301 node scripts/start.js"
   },
   "author": "",
   "license": "ISC",

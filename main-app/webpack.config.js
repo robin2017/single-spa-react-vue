@@ -1,6 +1,21 @@
 module.exports={
+    output:{
+        filename:'[name].js'
+    },
     devServer:{
-        host:'127.0.0.1',
-        port:12300
+        open:true,
+        port:12300,
+        proxy:{
+            '/react-static':{
+                target:'http://localhost:12301',
+                changeOrigin:true,
+                secure:false
+            },
+            '/vue-static':{
+                target:'http://localhost:12302',
+                changeOrigin:true,
+                secure:false
+            }
+        }
     }
 }

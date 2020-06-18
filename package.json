@@ -8,9 +8,8 @@
     "install:vue": "cd sub-vue-app && npm i",
     "install:main": "cd main-app && npm i",
     "install:all": "npm-run-all -p install:react install:vue install:main",
-    "sub:react": "cd sub-react-app && npm run start",
-    "sub:vue": "cd sub-vue-app && npm run serve",
-    "sub:all": "npm-run-all -p sub:react sub:vue",
+    "serve:react": "cd sub-react-app && npm run serve",
+    "serve:vue": "cd sub-vue-app && npm run serve",
     "serve:main": "cd main-app && npm run serve"
   },
   "author": "",
