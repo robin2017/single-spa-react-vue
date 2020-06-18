@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "PORT=12301 react-scripts start"
+    "start": "PORT=12301 react-scripts start",
+    "eject":"react-scripts eject"
   },
   "author": "",
   "license": "ISC",
